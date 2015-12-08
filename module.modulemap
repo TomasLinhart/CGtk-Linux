@@ -1,5 +1,7 @@
 module CGtk [system] {
-  header "/usr/include/json-c/json.h"
-  link "json-c"
+  header "/usr/local/include/gtk-3.0/gtk/gtk.h"
+
+  link "libgtk-3.0"
+
   export *
 }
