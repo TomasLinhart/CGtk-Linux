@@ -1,4 +1,5 @@
 module CGtk [system] {
+  header "headers.h"
   header "/usr/include/gtk-3.0/gtk/gtk.h"
 
   link "gtk-3"
